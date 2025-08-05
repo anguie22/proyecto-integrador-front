@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tienda Bebé</title>
+  <title>MOTHERCARE</title>
   <link rel="stylesheet" href="style.css" />
   
 </head>
@@ -11,8 +11,7 @@
     <header>
         <div class="nav-container">
           <div class="logo">
-            <span class="icon">🌼</span>
-            <h1>MOTHER CARE</h1>
+            <h1>MOTHERCARE</h1>
           </div>
           <nav>
             <form class="search-form">
@@ -26,94 +25,90 @@
           </nav>
         </div>
 
-  
-        
-          <!-- Segundo menú de navegación con otro submenú -->
-          <div class="nav-container">
-            <nav>
-              <ul>
-                <li><a href="#">Inicio</a></li>
-                <li class="dropdown">
-                  <a href="#">Categorías</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Ropa Niño</a></li>
-                    <li><a href="#">Zapatos Niño</a></li>
-                    <li><a href="#">Accesorios Niño</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Catálogo</a></li>
-                <li><a href="#">Nueva Colección</a></li>
-              </ul>
-            </nav>
-          </div>
-        
-          
-      </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li class="menu-desplegable">
+          <a href="#">Categorías</a>
+          <ul class="menu-desplegable">
+            <li><a href="#">Ropa Niño</a></li>
+            <li><a href="#">Zapatos Niño</a></li>
+            <li><a href="#">Accesorios Niño</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Nueva Colección</a></li>
+      </ul>
+    </nav>
+  </header>
 
-
-      <section class="carrusel">
-        <div class="slider">
-            
-         
-          <!-- Ejemplo con video -->
-          <sectin class="video-section">
-            <video autoplay muted loop playsinline class="video-mini">
-              <source src="imagenes/5123793_People_Person_3840x2160.mp4" type="video/mp4">
-              Tu navegador no soporta el video.
-            </video>
-          </section>
-          <!-- Lista ordenada de opciones -->
-          <section class="lista-opciones">
-            <h2>Descubre nuestros productos:</h2>
-            <h3>Elige una Categoría</h3>
-          </section>
+  <section class="carrusel">
+    <div class="slider">
+      <section class="video-section">
+        <video autoplay muted loop playsinline class="video-mini">
+          <source src="multimedia/videoP.mp4" type="video/mp4">
           
-      
-      
+        </video>
+      </section>
+    </div>
+  </section>
+
+  <section class="lista-opciones">
+    <h2>Descubre nuestros productos:</h2>
+    <h3>Elige una Categoría</h3>
+  </section>
+
   <main>
     <section class="productos">
-     
-      <div class="producto">
-        <img src="https://via.placeholder.com/200x200.png?text=Body+Bebé" alt="Body Bebé">
-        <h3>Body Algodón</h3>
-        <p>$9.99</p>
-        <button onclick="agregarAlCarrito('Body Algodón')">Agregar al carrito</button>
-      </div>
+     <div class="categoria"> <div class="producto">
+    <img src="multimedia/Czapatos.jpg" alt="CategoríaZapatos">
+  </div>
+      <h3>Zapatos</h3> </div>
 
-      <div class="producto">
-        <img src="https://via.placeholder.com/200x200.png?text=Conjunto" alt="Conjunto bebé">
-        <h3>Conjunto Osito</h3>
-        <p>$14.99</p>
-        <button onclick="agregarAlCarrito('Conjunto Osito')">Agregar al carrito</button>
-      </div>
+      <div class="categoria"> <div class="producto">
+    <img src="multimedia/modaNiña.jpg" alt="modaNiña">
+  </div>
+      <h3>Moda niñas</h3> </div>
 
-       <div class="producto">
-        <img src="https://via.placeholder.com/200x200.png?text=Conjunto" alt="Conjunto bebé">
-        <h3>Conjunto Osito</h3>
-        <p>$14.99</p>
-        <button onclick="agregarAlCarrito('Conjunto Osito')">Agregar al carrito</button>
-      </div>
+       <div class="categoria"> <div class="producto">
+    <img src="multimedia/modaNiños.jpg" alt="modaNiños">
+  </div>
+      <h3>Moda niños</h3> </div>
 
-       <div class="producto">
-        <img src="https://via.placeholder.com/200x200.png?text=Conjunto" alt="Conjunto bebé">
-        <h3>Conjunto Osito</h3>
-        <p>$14.99</p>
-        <button onclick="agregarAlCarrito('Conjunto Osito')">Agregar al carrito</button>
-      </div>
 
-       <div class="producto">
-        <img src="https://via.placeholder.com/200x200.png?text=Conjunto" alt="Conjunto bebé">
-        <h3>Conjunto Osito</h3>
-        <p>$14.99</p>
-        <button onclick="agregarAlCarrito('Conjunto Osito')">Agregar al carrito</button>
-      </div>
     </section>
   </main>
 
+  
   <footer>
-    <p>&copy; 2025 MOTHER CARE- Todos los derechos reservados.</p>
-  </footer>
+  <div class="footer-container">
+    <div class="footer-col-1">
+      <h3>MOTHERCARE</h3>
+      <div class="social-links">
+        <a href="#">facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">whatsapp</a>
+      </div>
+    </div>
+    <div class="footer-col-2">
+      <h3>Información</h3>
+      <ul>
+        <li><a href="#">Cambios</a></li>
+        <li><a href="#">Devoluciones</a></li>
+      </ul>
+    </div>
+    <div class="footer-col-3">
+      <h3>Contacto</h3>
+      <p><strong>Horario:</strong> Lunes a Viernes, 9am - 6pm</p>
+      <p><strong>NIT:</strong> 123456789-0</p>
+      <p><a href="mailto:contacto@mothercare.com">Escríbenos</a></p>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2025 MOTHERCARE - Todos los derechos reservados.</p>
+  </div>
+</footer>
 
   <script src="script.js"></script>
 </body>
