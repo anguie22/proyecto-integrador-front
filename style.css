@@ -8,8 +8,8 @@
 /* === estilos generales === */
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff9f4;
-  color: #333;
+  background-color: lch(100% 0.01 296.81);
+  color: #33333339;
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 
 /* === HEADER === */
 header {
-  background-color: #ffe0ec;
+  background-color: #ffffff23;
   padding: 20px;
   text-align: center;
 }
@@ -53,6 +53,7 @@ nav ul {
   list-style: none;
   justify-content: center;
   padding: 10px 0;
+  border-top: 2 solid #444;
 }
 
 nav a {
@@ -91,30 +92,6 @@ nav a {
 
 .menu-desplegable a:hover {
   background: #ffb6c1;
-}
-
-.search-form {
-  display: flex;
-  gap: 8px;
-}
-
-.search-form input {
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.search-form button {
-  padding: 5px 10px;
-  background: #ff3366;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.search-form button:hover {
-  background: #e02e5e;
 }
 
 /* === CARRUSEL y VIDEO === */
@@ -269,6 +246,35 @@ footer {
     font-size: 1.5rem;
     padding: 8px;
   }
+}
+/* Centrar el contenedor en la página */
+.search-container {
+  display: flex;                /* Para alinear input y carrito en fila */
+  justify-content: center;      /* Centra el contenido horizontalmente */
+  align-items: center;          /* Centra verticalmente */
+  margin: 20px auto;            /* Margen vertical y centrar contenedor */
+  width: 100%;                  /* Ocupa todo el ancho disponible */
+  max-width: 600px;             /* Máximo ancho para que no sea muy largo */
+  position: relative;           /* Para posicionar carrito */
+}
+
+/* Estilos para la barra de búsqueda */
+.search-input {
+  flex-grow: 1;                 /* Ocupa todo el espacio posible */
+  padding: 10px 15px;           /* Espacio interno */
+  font-size: 16px;
+  border-radius: 25px;          /* Bordes redondeados */
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Estilos para el icono del carrito */
+.cart-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;            /* Separación entre input y carrito */
+  cursor: pointer;              /* Cambia cursor para indicar click */
 }
 
 
